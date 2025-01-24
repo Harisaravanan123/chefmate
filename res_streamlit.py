@@ -25,7 +25,7 @@ connection=psycopg2.connect(
     host='database-1.crum2kge4eek.ap-south-1.rds.amazonaws.com',
     port=5432,
     user='postgres',
-    password='Viper777'
+    password='Hari1777'
 )
 connection.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
 writer=connection.cursor()
